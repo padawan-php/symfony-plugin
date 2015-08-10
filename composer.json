@@ -1,0 +1,15 @@
+{
+    "name": "mkusher/padawan-symfony",
+    "description": "Symfony2 plugin for Padawan.php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"Mkusher\\PadawanSymfony\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Aleh Kashnikau",
+            "email": "aleh.kashnikau@gmail.com"
+        }
+    ],
+    "require": {}
+}
