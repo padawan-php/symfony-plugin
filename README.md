@@ -1,6 +1,8 @@
-Symfony2 plugin for Padawan.php
-===============================
+Symfony2 plugin
+===============
 
+A Symfony2 plugin for
+[padawan.php completion server](https://github.com/mkusher/padawan.php).
 Adds services' names completion and type detection after
 `Symfony\Components\DependencyInjection\Container::get` and `Controller::get`.
 
