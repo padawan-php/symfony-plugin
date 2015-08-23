@@ -79,9 +79,7 @@ class Plugin
         if (!$fqcn instanceof FQCN) {
             return false;
         }
-        if (in_array($fqcn->toString(), $this->containerNames)
-            && $workingNode->name === 'get'
-        ) {
+        if (in_array($fqcn->toString(), $this->containerNames)) {
             return true;
         }
         $class = $index->findClassByFQCN($fqcn);
